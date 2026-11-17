@@ -10,27 +10,23 @@ Include the Problem Statement and Dataset.
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
-
+STEP 1:
 Write your own steps
 
-### STEP 2: 
+STEP 2:
+Load the Fashion MNIST dataset, apply image preprocessing, and create training and testing data loaders.
 
+STEP 3:
+Design and initialize the Convolutional Neural Network (CNN) architecture with convolution, pooling, and fully connected layers.
 
+STEP 4:
+Define the loss function and optimizer, then train the CNN model using the training dataset.
 
-### STEP 3: 
+STEP 5:
+Evaluate the trained model using the testing dataset and calculate accuracy, confusion matrix, and classification report.
 
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
+STEP 6:
+Test the model with a new image and display the actual and predicted class labels.
 
 
 
@@ -304,19 +300,16 @@ print("Original Class:", original_dataset.classes[label])
 
 ### OUTPUT
 
-## Training Loss per Epoch
+<img width="773" height="742" alt="Screenshot 2026-11-17 123358" src="https://github.com/user-attachments/assets/01fee319-25d1-4160-811b-2735ee49d7b8" />
 
-Include the Training Loss per epoch
 
-## Confusion Matrix
+<img width="965" height="857" alt="Screenshot 2026-11-17 123409" src="https://github.com/user-attachments/assets/d2c61533-9ddf-401f-a859-0c5518858fa3" />
 
-Include confusion matrix here
 
-## Classification Report
-Include classification report here
+<img width="671" height="443" alt="Screenshot 2026-11-17 123428" src="https://github.com/user-attachments/assets/9721ea2b-7678-4cd2-be7f-e4138efcad3e" />
 
-### New Sample Data Prediction
-Include your sample input and output here
+
+<img width="613" height="612" alt="Screenshot 2026-11-17 123446" src="https://github.com/user-attachments/assets/246b64a9-8fe1-4057-a89d-7d9eae768b40" />
 
 ## RESULT
-Include your result here
+The CNN model was successfully trained and tested on the Fashion MNIST dataset, achieving accurate image classification with performance evaluation metrics.
